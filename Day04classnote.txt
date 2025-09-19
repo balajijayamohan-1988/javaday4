@@ -1,4 +1,4 @@
-//exersize for if statement
+//Exersize 1 - for if statement
 //project GreensTech
 package org.test;
 public class SampleOne{
@@ -7,9 +7,11 @@ public class SampleOne{
             if(age>=18) {
                System.out.println("Valid age");     
             }
-
+            
     }
-}//Valid age
+}
+//Result - Valid age
+
 //Exersize 2 - for if else statement
 //project GreensTech
 project org.test;
@@ -24,4 +26,4 @@ public class SampleOne{
             }
     }
 
-}// result Jain College
+}// Result - Jain College
