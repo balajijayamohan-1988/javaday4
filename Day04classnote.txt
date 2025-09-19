@@ -73,6 +73,36 @@ public class SampleOne{
             else{
                 System.out.println("All are equal");
                 }    
-            
-    }
+                }
 }// Result - C is Greater
+
+
+
+
+//Exersize 5
+//for nested else
+//project GreensTech
+package org.test;
+public class SampleOne{
+    public static void main(String[] args){
+        int age=18,voteId=1000;
+            if(age>=18){
+                System.out.println("Valid age");
+                if(voteId==1000){
+                    System.out.println("Valid Id");
+                }
+                else{
+                    System.out.println("Invalid Id");  
+                }
+            }
+            else{
+                System.out.println("Invalid age");
+            }
+    }
+}/* Results - Valid age 
+              Valid Id */
+
+
+
+
+//Exersize 6
