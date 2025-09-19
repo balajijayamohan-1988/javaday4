@@ -7,18 +7,22 @@ public class SampleOne{
             if(age>=18) {
                System.out.println("Valid age");     
             }
-            
+
     }
 }
 //Result - Valid age
 
+
+
+
+
 //Exersize 2 - for if else statement
 //project GreensTech
-project org.test;
+package org.test;
 public class SampleOne{
     public static void main(String[] args){
         int colgId = 100;
-            if(colgI<100){
+            if(colgId<100){
                 System.out.println("SRM College");
             }
             else{
@@ -27,3 +31,48 @@ public class SampleOne{
     }
 
 }// Result - Jain College
+
+
+
+
+//Exersize 3 - for if else using logical &&
+//project GreensTech
+package org.test;
+public class SampleOne {
+    public static void main(String[] args){
+        int age=18, empId=100;
+            if(age>=18 && empId<1000){
+                System.out.println("Valid Employee");
+            }
+            else {
+                System.out.println("Invalid Employee");
+            }
+    }
+}// Result - Valid Employee
+
+
+
+
+//Exersize 4
+//for else if statement
+//project GreensTesh
+
+package org.test;
+public class SampleOne{
+    public static void main(String[] args){
+        int a=20,b=30,c=40;
+            if(a>b && a>c){
+                System.out.println("A is Greater");
+            }
+                else if(b>c && b>a){
+                    System.out.println("B is Greater");       
+                }
+                else if(c>a && c>b){
+                    System.out.println("C is Greater");    
+                }
+            else{
+                System.out.println("All are equal");
+                }    
+            
+    }
+}// Result - C is Greater
