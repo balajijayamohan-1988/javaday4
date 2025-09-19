@@ -1,0 +1,27 @@
+//exersize for if statement
+//project GreensTech
+package org.test;
+public class SampleOne{
+    public static void main(String[] args){
+        int age = 18;
+            if(age>=18) {
+               System.out.println("Valid age");     
+            }
+
+    }
+}//Valid age
+//Exersize 2 - for if else statement
+//project GreensTech
+project org.test;
+public class SampleOne{
+    public static void main(String[] args){
+        int colgId = 100;
+            if(colgI<100){
+                System.out.println("SRM College");
+            }
+            else{
+                System.out.println("Jain Collge");
+            }
+    }
+
+}// result Jain College
