@@ -4,15 +4,14 @@
 package org.test;
 public class Hellow {
     public static void main(String[] args){
-        //       1    2    8
+        //       1    2    7
         for(int i=1;i<=3;i++){
             //       3    4   6  
             for(int j=1;j<=3;j++){
                 //                            5  
              System.out.println("J value is "+j);   
             }
-            //                               7
-            System.out.println("i value is "+i);
+            
         }
     }
 }
@@ -44,14 +43,182 @@ run output
 j value is 1
 j value is 2
 j value is 3
+j value is 1
+j value is 2
+j value is 3
+j value is 1
+j value is 2
+j value is 3
+
+*/
+
+
+
+
+
+//Assignment 05
+//Nested for
+//project Sample
+package org.test;
+public class Hellow {
+    public static void main(String[] args){
+        //       1    2    7
+        for(int i=1;i<=3;i++){
+            //       3    4   5  
+            for(int j=1;j<=3;j++){
+                
+            }
+            //                               6
+            System.out.println("i value is "+i);
+        }
+    }
+}
+/* workflow
+1       2       3       4       5       6       7       8
+i=1     1<=3     
+                j=1     1<=3     1       1+1=2   
+                j=2     2<=3     2       2+1=3
+                j=3     3<=3     3       3+1=4
+                j=4     4<=3 --> terminate
+                                                1       1+1=2
+i=2     2<=3
+                j=1                                                
+                j=1     1<=3     1       1+1=2   
+                j=2     2<=3     2       2+1=3
+                j=3     3<=3     3       3+1=4
+                j=4     4<=3 --> terminate
+                                                2       2+1=3     
+ i=3    3<=3
+                j=1                                                
+                j=1     1<=3     1       1+1=2   
+                j=2     2<=3     2       2+1=3
+                j=3     3<=3     3       3+1=4
+                j=4     4<=3 --> terminate
+                                                3      3+1=4                                                                              
+i=4     4<=3 --> terminate
+
+run output
 i value is 1
-j value is 1
-j value is 2
-j value is 3
 i value is 2
-j value is 1
-j value is 2
-j value is 3
 i value is 3
 
 */
+
+
+
+
+
+//Assignment 06
+//Nested for loop
+//project Sample
+package org.test;
+public class Hellow {
+    public static void main(String[] args){
+        //       1    2   7
+        for(int i=1;i<=3;i++){
+            //        3    4   6
+            for(int j=1;j<=i;j++){
+                //                               5
+                System.out.println("j value is "+j);
+            }
+        }
+    }
+}
+/* 
+workflow
+1       2       3       4       5       6       7
+-------------------------------------------------
+i=1     1<=3
+                j=1     1<=1    1      1+1=2
+                j=2     2<=1 --> terminate                                 
+                                                 1+1=2
+i=2     2<=3
+                j=1     1<=2    1      1+1=2
+                j=2     2<=2    2      2+1=3                        
+                j=3     3<=2  --> terminate      2+1=3
+i=3     3<=3
+                j=1     1<=3    1      1+1=2
+                j=2     2<=3    2      2+1=3                        
+                j=3     3<=3    3      3+1=4 
+                j=4     4<=3  --> terminate      2+1=3
+Run output
+1
+1
+2
+1
+2
+3
+*/
+
+
+
+
+
+//Assignment 07
+//Nested forloops
+//project Sample
+package org.test;
+public class Hellow {
+    public static void main(String[] args){
+        //       1    2   7
+        for(int i=1;i<=3;i++){
+            //        3     4   6
+            for(int j=i+1;j<=3;j++){
+                //                              5
+                System.out.println("j value is "+j);
+            }
+        }
+    }
+}
+/*
+workflow
+1       2       3         4       5       6       7
+========================================================
+i=1     1<=3 
+                j=1+1=2   2<=3    2       2+1=3
+                j=3       3<=3    3       3+1=4
+                j=4       4<=3 -> terminate
+                                                1+1=2
+i=2     2<=3
+                j=2+1=3   3<=3    3       3+1=4
+                j=4       4<=3 -> terminate
+                                                2+1=3
+i=3     3<=3
+                j+3+1=4   4<=3 -> terminate
+Run output
+2
+3
+3
+*/                
+
+
+
+
+
+//Assignment 08
+//Nested forloops
+//project Sample
+package org.test;
+public class Hellow{
+    public static void main(String[] args){
+        //        1   2   7
+        for(int i=1;i<=3;i++){
+            //        3     4   6
+            for(int j=i+1;j<=i;j++){
+                //                              5
+                System.out.println("j value is "+j);
+            }
+        }
+    }
+}
+/*
+workflow
+1       2       3       4       5       6       7
+=======================================================
+i=1     1<=3    
+                1+1=2   2<=1 ->Terminate
+Run output
+note
+*/
+                                    
+
