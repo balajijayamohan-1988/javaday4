@@ -105,7 +105,7 @@ public class SampleOne{
 
 
 
-//Exersize 6
+//Exersize 1
 // for loop statement
 //project GreensTech
 
@@ -129,7 +129,7 @@ public class SampleOne {
 
 
 
-//Exersize 7
+//Exersize 2
 //WhileLoop
 //project GreensTech
 
@@ -159,7 +159,7 @@ public class SampleOne {
 
 
 
-//Exersize 8
+//Exersize 3
 //Do WhileLoop
 //project GreensTech
 
